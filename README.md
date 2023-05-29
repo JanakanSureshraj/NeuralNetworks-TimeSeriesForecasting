@@ -6,6 +6,6 @@ AR_Approach.R- The 1st subtask, one-step-ahead forecasting of electricity consum
 	
 NARX_Approach.R- The 2nd subtask, however, one-step-ahead forecasting of electricity consumption will utilise additional input vectors by including information from the 19th and 18th hour attributes. In that case, these NN models could be considered as “NARX” (nonlinear autoregressive exogenous) style models. Initial Input/Output matrices + exogenous variables (as columns) have been used to train 6 Neural Networks. 
 
-A total of 19 Neural Networks for both the above approaches have been developed and one best model has been preferred based on statistical indices such as RMSE, MAE, MAPE and SMAPE. 
+A total of 19 Neural Networks with different internal architectures and input vectors have been developed for both the above approaches and one best model has been preferred based on statistical indices such as RMSE, MAE, MAPE and SMAPE. 
 
  
